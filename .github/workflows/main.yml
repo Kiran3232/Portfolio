@@ -1,11 +1,11 @@
 name: Deploy to GitHub Pages via angular-cli-ghpages
 
- on:
-   push:
-      branches:
-        - master
+on:
+ push:
+  branches: 
+   - master
 
- jobs:
+jobs:
    build-and-deploy:
      runs-on: ubuntu-latest
 
