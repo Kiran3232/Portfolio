@@ -1,0 +1,7 @@
+.list-group > .list-group-item {
+    border-radius: 0px !important;
+}
+
+.list-group-item.active {
+    background-color: #343a40 !important;
+}
